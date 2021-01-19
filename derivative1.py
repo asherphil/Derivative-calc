@@ -1,0 +1,8 @@
+coeffstr = input("what is your coefficient")
+powerstr = input("what is your power")
+coeffint = int(coeffstr)
+powerint = int(coeffstr)
+new_coeffstr = str(coeffint*powerint)
+new_powerstr = str(powerint-1)
+print("intial function:"+coeffstr+"x^"+powerstr)
+print("derivative:"+new_coeffstr+"x^"+new_powerstr)
